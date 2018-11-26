@@ -1,4 +1,4 @@
-# Netlify + FaunaDB &nbsp;&nbsp;&nbsp;<a href="https://app.netlify.com/start/deploy?repository=https://github.com/netlify/netlify-faunadb-example"><img src="https://www.netlify.com/img/deploy/button.svg"></a>
+# Netlify + FaunaDB &nbsp;&nbsp;&nbsp;<a href="https://app.netlify.com/start/deploy?repository=https://github.com/wildercommunity/netlify-faunadb-vue"><img src="https://www.netlify.com/img/deploy/button.svg"></a>
 
 Example of using [FaunaDB](https://fauna.com/) with [Netlify functions](https://www.netlify.com/docs/functions/)
 
@@ -64,9 +64,9 @@ This application is using [React](https://reactjs.org/) for the frontend, [Netli
 
 1. [Sign up for free FaunaDB account](https://app.fauna.com/sign-up),
 2. Grab your [FaunaDB API key](https://dashboard.fauna.com/db/keys)
-3. Click the [Deploy to Netlify Button](https://app.netlify.com/start/deploy?repository=https://github.com/netlify/netlify-faunadb-example)
+3. Click the [Deploy to Netlify Button](https://app.netlify.com/start/deploy?repository=https://github.com/wildercommunity/netlify-faunadb-vue)
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/netlify/netlify-faunadb-example)
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/wildercommunity/netlify-faunadb-vue)
 
 ![setup steps](https://user-images.githubusercontent.com/532272/42069927-28e1c436-7b09-11e8-96e9-272987fc9e15.gif)
 
@@ -130,7 +130,7 @@ Head over to [https://app.fauna.com/sign-up](https://app.fauna.com/sign-up) to c
 
     ![Name the fauna key and create](https://user-images.githubusercontent.com/532272/42112890-4653439c-7b9e-11e8-9573-361843c590aa.png)
 
-4. **Copy this API key for later use, or [Deploy to Netlify Button](https://app.netlify.com/start/deploy?repository=https://github.com/netlify/netlify-faunadb-example) and plugin this API key.**
+4. **Copy this API key for later use, or [Deploy to Netlify Button](https://app.netlify.com/start/deploy?repository=https://github.com/wildercommunity/netlify-faunadb-vue) and plugin this API key.**
 
     ![Copy API key for future use](https://user-images.githubusercontent.com/532272/42112934-6d6499e0-7b9e-11e8-81ea-be57249895b1.png)
 
@@ -145,7 +145,7 @@ Head over to [https://app.fauna.com/sign-up](https://app.fauna.com/sign-up) to c
     set FAUNADB_SECRET=YourFaunaDBKeyHere
     ```
 
-    Add the [/scripts/bootstrap-fauna-database.js](https://github.com/netlify/netlify-faunadb-example/blob/f965df497f0de507c2dfdb1a8a32a81bbd939314/scripts/bootstrap-fauna-database.js) to the root directory of the project. This is an idempotent script that you can run 1 million times and have the same result (one todos database)
+    Add the [/scripts/bootstrap-fauna-database.js](https://github.com/wildercommunity/netlify-faunadb-vue/blob/f965df497f0de507c2dfdb1a8a32a81bbd939314/scripts/bootstrap-fauna-database.js) to the root directory of the project. This is an idempotent script that you can run 1 million times and have the same result (one todos database)
 
     Next up, add the bootstrap command to npm scripts in your `package.json` file
 
@@ -391,7 +391,7 @@ Requests to `/.netlify/function/[Function-File-Name]` will work seamlessly on lo
 
 We will be skipping over the rest of the frontend parts of the app because you can use whatever framework you'd like to build your application.
 
-All the demo React frontend code is [available here](https://github.com/netlify/netlify-faunadb-example/tree/17a9ba47a8b1b2408b68e793fba4c5fd17bf85da/src)
+All the demo React frontend code is [available here](https://github.com/wildercommunity/netlify-faunadb-vue/tree/17a9ba47a8b1b2408b68e793fba4c5fd17bf85da/src)
 
 ### 5. Finishing the Backend Functions
 
