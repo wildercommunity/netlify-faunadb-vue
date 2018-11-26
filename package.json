@@ -5,7 +5,7 @@
   "dependencies": {
     "faunadb": "^2.5.2",
     "vue": "^2.5.17",
-    "@vue/cli-service": "^3.0.5",
+    "@vue/cli-service": "^3.0.5"
   },
   "scripts": {
     "bootstrap": "node ./scripts/bootstrap-fauna-database.js",
