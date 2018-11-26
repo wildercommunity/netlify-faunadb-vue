@@ -4,7 +4,8 @@
   "private": true,
   "dependencies": {
     "faunadb": "^2.5.2",
-    "vue": "^2.5.17"
+    "vue": "^2.5.17",
+    "@vue/cli-service": "^3.0.5",
   },
   "scripts": {
     "bootstrap": "node ./scripts/bootstrap-fauna-database.js",
@@ -24,7 +25,6 @@
     "netlify-lambda": "^1.0.2",
     "npm-run-all": "^4.1.3",
     "@vue/cli-plugin-pwa": "^3.0.5",
-    "@vue/cli-service": "^3.0.5",
     "vue-template-compiler": "^2.5.17"
   },
   "browserslist": [

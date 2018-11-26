@@ -6,4 +6,4 @@
   publish = "dist"
 
 [template.environment]
-  FAUNADB_SECRET = "fnADAx7wQ5ACCFnAcOcxAK7k97Wv8wCOxFilgHc6"
+  FAUNADB_SECRET = "Fauna DB Secret Key"
